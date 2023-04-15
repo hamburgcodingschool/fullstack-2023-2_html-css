@@ -1,5 +1,5 @@
 ## Create a simple recipe page
-![The recipe](images/recipe.png)
+![The recipe](recipe.png)
 
 Use the ```<img>``` tag and store your image in a seperate folder. Use a ```<ol>``` ordered list for your cooking steps.
 
