@@ -1,0 +1,41 @@
+:root {
+  font-size: 20px;
+}
+
+#container {
+  font-size: 28px;
+  width: 75%;
+  height: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+
+div {
+  border: 1px solid #000;
+  margin-bottom: 10px;
+}
+
+#pixels {
+  width: 100px;
+  height: 100px;
+}
+
+#percents {
+  width: 50%;
+  height: 50%;
+}
+
+#rem {
+  width: 10rem;
+  height: 10rem;
+}
+
+#em {
+  width: 10em;
+  height: 10em;
+}
+
+#viewport {
+  width: 20vw;
+  height: 20vh;
+}

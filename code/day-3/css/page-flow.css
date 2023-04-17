@@ -1,0 +1,15 @@
+/* css for page flow example*/
+h1,
+h2,
+p {
+  display: block;
+}
+
+.box {
+  font-size: 30px;
+  width: 200px;
+  height: 100px;
+  background-color: gray;
+  margin: 10px;
+  padding: 10px;
+}
