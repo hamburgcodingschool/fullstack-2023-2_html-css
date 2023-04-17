@@ -1,0 +1,25 @@
+/*styles for helloworld.html*/
+
+body {
+  font-size: 20px;
+}
+
+ul {
+  font-size: 50px;
+}
+
+li {
+  font-size: 60px;
+}
+
+#list-sizes {
+  color: red;
+}
+
+.active-state {
+  font-weight: bold;
+}
+
+ul#list-sizes li.active-state {
+  text-decoration: underline;
+}
