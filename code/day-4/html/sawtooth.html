@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <style>
+      :root {
+        font-size: 20px;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      .step {
+        height: 20vh;
+        background-color: #ccc;
+        position: relative;
+      }
+      .step:hover {
+        background-color: blueviolet;
+      }
+
+      #step20 {
+        width: 20vw;
+      }
+      #step40 {
+        width: 40vw;
+      }
+      #step60 {
+        width: 60vw;
+      }
+      #step80 {
+        width: 80vw;
+      }
+      #step100 {
+        width: 100vw;
+      }
+
+      section div:first-child {
+        background-color: red;
+      }
+      section div:last-child {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div id="step20" class="step"></div>
+      <div id="step40" class="step"></div>
+      <div id="step60" class="step"></div>
+      <div id="step80" class="step"></div>
+      <div id="step100" class="step"></div>
+    </section>
+  </body>
+</html>

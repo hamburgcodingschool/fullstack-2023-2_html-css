@@ -1,0 +1,58 @@
+/*styles for units example*/
+
+:root {
+  font-size: 20px;
+}
+
+body {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+div#pixel,
+div#percent,
+div#em,
+div#rem,
+div#viewport {
+  width: 100%;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+div#percent {
+  width: 75%;
+}
+
+div#em {
+  font-size: 60px;
+}
+
+div div {
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+
+div#pixel div {
+  width: 1000px;
+}
+
+div#percent div {
+  width: 25%;
+}
+
+div#em div {
+  width: 10em;
+}
+
+div#rem {
+  font-size: 2px;
+}
+
+div#rem div {
+  width: 10rem;
+}
+
+div#viewport div {
+  width: 30vw;
+}

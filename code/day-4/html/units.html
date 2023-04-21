@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>units</title>
+    <style>
+      :root {
+        font-size: 20px;
+      }
+      div div {
+        height: 100px;
+        background-color: black;
+      }
+      div#pixels {
+        width: 100%;
+      }
+      div#pixels div {
+        width: 100px;
+      }
+      div#percent {
+        width: 100%;
+        font-size: 10px;
+      }
+      div#percent div {
+        width: 50rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="pixels">
+      <div></div>
+    </div>
+    <div id="percent">
+      <div></div>
+    </div>
+  </body>
+</html>
