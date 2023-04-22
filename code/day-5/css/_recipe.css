@@ -1,0 +1,31 @@
+:root {
+  font-size: 16px;
+}
+* {
+  box-sizing: border-box;
+}
+.wireframe {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+main {
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+article {
+  padding: 10px;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+h1 {
+  margin: 0 0 1rem;
+  font-size: 2rem;
+}
+p {
+  margin-bottom: 2.5rem;
+  font-size: 1rem;
+}

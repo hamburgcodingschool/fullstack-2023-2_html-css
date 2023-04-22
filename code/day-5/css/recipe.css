@@ -1,0 +1,32 @@
+/*styles for recipe example*/
+
+:root {
+  font-size: 16px;
+}
+
+main {
+  width: 700px;
+  margin: 0 auto;
+  padding: 0.75rem;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+
+p {
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+main p:last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,97 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>coding principles</title>
+  </head>
+  <style>
+    body {
+      width: 80vh;
+      margin: 50px auto 0;
+      font-size: 24px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+    h1 {
+      text-transform: uppercase;
+    }
+    h2 {
+      text-transform: capitalize;
+    }
+    .principle {
+      margin-bottom: 50px;
+      padding-bottom: 50px;
+      border-bottom: 1px dashed #000;
+    }
+    code {
+      display: block;
+      margin: 10px 0;
+      color: rgb(0, 132, 255);
+    }
+  </style>
+  <body>
+    <img src="/images/tenor.gif" alt="" />
+    <div class="principle">
+      <h1>kiss</h1>
+      <h2>keep it simple (stupid)</h2>
+      <code> ul li a > em { font-weight: bold; } </code>
+      vs.
+      <code> em.loud { font-weight: bold; } </code>
+    </div>
+
+    <div class="principle">
+      <h1>dry</h1>
+      <h2>don't repeat yourself</h2>
+      <code>
+        .text-blue { color: blue; font-size: 10px; }
+        <br />
+        .text-red { color: red; font-size: 10px; }
+      </code>
+      vs.
+      <code>
+        .text-blue { color: blue; }
+        <br />
+        .text-red { color: red;
+        <br />
+        .text-small { font-size: 10px } }
+      </code>
+    </div>
+
+    <div class="principle">
+      <h1>Seperation of Concerns</h1>
+      <code>h1 style="font-size: 2rem"</code>
+      vs.
+      <code>h1.large</code>
+    </div>
+
+    <div class="principle">
+      <h1>yagni</h1>
+      <h2>You aint gonna need it</h2>
+      <code>Don't write code that you <b>think</b> you will need</code>
+    </div>
+
+    <div class="principle">
+      <h1>Naming</h1>
+      <h2>Write readable code</h2>
+      <code> main#main1 </code>
+      vs.
+      <code> main#page-content </code>
+    </div>
+
+    <div class="principle">
+      <h1>Spezifität</h1>
+      <h2>Was wiegt schwerer</h2>
+      <ul>
+        <li>Universelle Selektoren: * (0)</li>
+        <li>Typselektoren: h1 (1)</li>
+        <li>Klassenselektoren: .menu (10)</li>
+        <li>Pseudoklassen: a:hover (10)</li>
+        <li>ID-Selektoren: #page (100)</li>
+        <li>Inlinestile: style="color: blue" (1000)</li>
+        <li>!important: setzt sich immer durch</li>
+      </ul>
+      <p><a href="https://specificity.keegan.st/">Spezifitätsrechner</a></p>
+    </div>
+  </body>
+</html>
