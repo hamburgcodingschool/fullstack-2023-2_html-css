@@ -1,0 +1,28 @@
+/*styles for the display inline example*/
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  margin: 0 auto;
+  width: 80vw;
+}
+
+ul#navigation {
+  display: flex;
+  justify-content: space-around; /*main-axis*/
+  align-items: flex-start; /*cross-axis*/
+  flex-direction: row;
+  padding-left: 0;
+  background-color: lightgray;
+  height: 500px;
+}
+
+ul#navigation li {
+  background-color: gray;
+  border-radius: 15px;
+  color: white;
+  padding: 2px 10px;
+  margin: 2px;
+}
