@@ -1,0 +1,21 @@
+/*styles for media quetries example*/
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    align-items: flex-end;
+  }
+}
