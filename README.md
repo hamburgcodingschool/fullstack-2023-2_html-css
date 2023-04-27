@@ -1,18 +1,6 @@
-# {{ Course Name }}
-## Full Stack Course - {{ Start Date }}
+# HTML&CSS
 
-### ✏️ Homework
-
-- Homework will be posted here
-
-### 📄 Docs
-
-- [Lesson Summary](https://...)
-
-- [Handout](https://...)
-
-- [Outline](https://...)
-
+## Full Stack Course - April 2023
 
 ### 🤔 Questions?
 
