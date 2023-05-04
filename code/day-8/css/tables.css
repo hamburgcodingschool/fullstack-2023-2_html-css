@@ -1,0 +1,30 @@
+/*styles for tables*/
+
+:root {
+  font-size: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  background-color: lightgray;
+  color: black;
+  transition: color 0.3s linear;
+}
+
+td:hover {
+  background-color: red;
+  color: white;
+  cursor: text;
+}
+
+th span {
+  visibility: hidden;
+}
+
+th:hover span {
+  visibility: visible;
+}

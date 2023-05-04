@@ -1,0 +1,61 @@
+/*all styles for the eye example*/
+@keyframes surprise {
+  0% {
+    background-color: green;
+    transform: scaleY(1);
+  }
+  25% {
+    background-color: #fff;
+    transform: scaleY(0.5);
+  }
+  50% {
+    background-color: red;
+    transform: scaleY(5);
+  }
+  100% {
+    background-color: blue;
+    transform: scaleY(1);
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+/*declare eye qualities*/
+.eye {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.eye:hover {
+  animation: surprise 1s ease;
+}
+
+.eye-ball {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+}
+
+/*helper class*/
+.sphere {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .eye {
+    /*NEW: calc() let's you calculate units. so here I am translating over the full viewport height (100vh) and subtract the height of the eye to move it back up.*/
+    transform: translateY(calc(100vh - 100px));
+  }
+}
